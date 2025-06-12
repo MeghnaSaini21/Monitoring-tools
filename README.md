@@ -45,9 +45,12 @@ At last, start the prometheus:
   sudo systemctl enable prometheus
   sudo systemctl start prometheus
   sudo systemctl status prometheus
+![Screenshot 2025-06-10 225416](https://github.com/user-attachments/assets/66a07cad-12d0-472c-b3dc-c1b2369634d5)
 
 Go to the browser and checks the status : http://<your-server-ip>:9090
-
+As after setup the NodeExporter and BlackboxExporter as shown in the targets :
+ ![WhatsApp Image 2025-06-11 at 10 11 08_d5a540d2](https://github.com/user-attachments/assets/19058041-5f80-4eb2-9fb6-902954baebd7)
+ 
 --> Grafana: 
 Install Grafana and set up on Ubuntu instance
 Step 1: Install dependencies and key set-up GPG key
